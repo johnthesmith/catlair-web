@@ -23,9 +23,10 @@ class TestMy extends WebPayload
     */
     public function go()
     {
+        print_r( $this -> getCaller() . PHP_EOL);
 //        $this -> setContent
 //        (
-//            $this -> getTemplate( 'asd.html' )
+//            $this -> getCaller()
 //        );
     }
 }
